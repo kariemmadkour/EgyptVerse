@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/button";
@@ -32,10 +33,19 @@ export function HeroSection() {
 
   return (
     <section className="relative flex min-h-[92vh] items-center overflow-hidden bg-lapis-deep text-white">
-      <div className="absolute inset-0 opacity-80">
+      <Image
+        src="/images/hero/tutankhamun-golden-mask.jpg"
+        alt={t("heroImageAlt")}
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-[78%_25%] opacity-90"
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-lapis-deep via-lapis-deep/75 to-transparent md:via-lapis-deep/55" />
+      <div className="absolute inset-0 opacity-50 mix-blend-screen">
         <ThreeHeroScene />
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-basalt/60 via-transparent to-basalt" />
+      <div className="absolute inset-0 bg-gradient-to-b from-basalt/50 via-transparent to-basalt" />
 
       <div className="container-heritage relative z-10 py-32">
         <Reveal>

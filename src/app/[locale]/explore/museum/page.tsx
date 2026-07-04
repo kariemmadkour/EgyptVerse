@@ -41,6 +41,7 @@ export default async function MuseumHubPage({
       description={t("museum.description")}
       heroImageUrl={featured[0]?.images[0]?.url ?? ""}
       heroImageAlt={localize(featured[0]?.images[0]?.alt, currentLocale) ?? ""}
+      sectionTheme="pharaonic"
       ctaLabel={t("museum.browseCta")}
       ctaHref="/explore/museum/galleries"
     >

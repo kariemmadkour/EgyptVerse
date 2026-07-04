@@ -217,3 +217,55 @@ html[dir="rtl"] {
     @apply mx-auto w-full max-w-[1440px] px-6 md:px-10 lg:px-16;
   }
 }
+
+/* ==========================================================================
+   SECTION DESIGN LANGUAGES — one shared palette/type/motion system (above),
+   three ornamental accents layered on top so each pillar reads as its own
+   "world" by content era: Pharaonic (Explore/Museum), Islamic (Archives &
+   manuscript-heavy content), Greco-Roman (Alexandria/Collections/Research).
+   Modern/general sections keep the base lapis identity, no extra motif.
+   ========================================================================== */
+[data-section-theme="pharaonic"] {
+  --section-surface: oklch(0.95 0.028 85);
+  --section-surface-strong: oklch(0.91 0.035 83);
+  --section-accent: var(--gold);
+  --section-ink: var(--basalt);
+}
+
+[data-section-theme="islamic"] {
+  --section-surface: oklch(0.96 0.018 195);
+  --section-surface-strong: oklch(0.9 0.03 195);
+  --section-accent: var(--faience);
+  --section-ink: var(--lapis-deep);
+}
+
+[data-section-theme="greco-roman"] {
+  --section-surface: oklch(0.96 0.016 55);
+  --section-surface-strong: oklch(0.91 0.03 45);
+  --section-accent: var(--terracotta);
+  --section-ink: var(--basalt);
+}
+
+[data-section-theme="modern"],
+[data-section-theme="general"] {
+  --section-surface: var(--papyrus);
+  --section-surface-strong: oklch(0.9 0.02 85);
+  --section-accent: var(--lapis);
+  --section-ink: var(--basalt);
+}
+
+.bg-section-surface {
+  background-color: var(--section-surface, var(--papyrus));
+}
+
+.bg-section-surface-strong {
+  background-color: var(--section-surface-strong, var(--papyrus));
+}
+
+.text-section-accent {
+  color: var(--section-accent, var(--gold));
+}
+
+.border-section-accent {
+  border-color: var(--section-accent, var(--gold));
+}

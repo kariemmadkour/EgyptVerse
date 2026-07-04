@@ -38,6 +38,7 @@ export default async function TimelinesHubPage({
       description={t("timelines.description")}
       heroImageUrl={eras[0]?.cover.url ?? ""}
       heroImageAlt={localize(eras[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="modern"
       ctaLabel={t("timelines.browseCta")}
       ctaHref={`/experience/timelines/${eras[0]?.slug ?? ""}`}
     >

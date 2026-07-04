@@ -41,6 +41,7 @@ export default async function LibraryHubPage({
       description={t("library.description")}
       heroImageUrl={featuredBooks[0]?.cover.url ?? ""}
       heroImageAlt={localize(featuredBooks[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="islamic"
       ctaLabel={t("library.browseCta")}
       ctaHref="/explore/library/browse"
     >

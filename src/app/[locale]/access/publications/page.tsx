@@ -41,6 +41,7 @@ export default async function PublicationsHubPage({
       description={t("publications.description")}
       heroImageUrl={publications.items[0]?.cover.url ?? ""}
       heroImageAlt={localize(publications.items[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="modern"
       ctaLabel={t("publications.browseCta")}
       ctaHref="#all-publications"
     >

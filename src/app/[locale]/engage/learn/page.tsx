@@ -39,6 +39,7 @@ export default async function LearnHubPage({
       description={t("learn.description")}
       heroImageUrl={paths[0]?.cover.url ?? ""}
       heroImageAlt={localize(paths[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="pharaonic"
       ctaLabel={t("learn.browseCta")}
       ctaHref={`/engage/learn/${paths[0]?.slug ?? ""}`}
     >

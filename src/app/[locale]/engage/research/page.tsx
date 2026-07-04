@@ -37,6 +37,7 @@ export default async function ResearchPortalPage({
       description={t("research.description")}
       heroImageUrl={records.items[0]?.thumbnail.url ?? ""}
       heroImageAlt=""
+      sectionTheme="greco-roman"
       ctaLabel={t("research.browseCta")}
       ctaHref="/engage/research/search"
     >

@@ -1,8 +1,15 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse
 
 **Phase 1 — Frontend.** A premium, trilingual digital heritage platform for the General
 Authority of the National Library and Archives of Egypt, unifying the National Library,
 National Archives, Digital Museum, and 11 other public programs into one experience.
+
+EgyptVerse is a visual fork of the Egypt Digital Heritage platform: real, curated photography
+(sourced from Wikimedia Commons, credited in [`public/images/CREDITS.json`](public/images/CREDITS.json))
+replaces the placeholder imagery, and each pillar/module carries a distinct ornamental design
+language — Pharaonic, Islamic, or Greco-Roman/Coptic — layered on top of the shared lapis/gold/
+papyrus palette and type system (see [`docs/04-design-system.md`](docs/04-design-system.md) and
+`src/components/decorative/heritage-patterns.tsx`).
 
 This phase ships the complete frontend — every module, page template, animation, and piece of
 content-shaped UI — backed by a swappable mock data layer. There is no database, no

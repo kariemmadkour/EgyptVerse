@@ -40,6 +40,7 @@ export default async function RestorationLabHubPage({
       description={t("restorationLab.description")}
       heroImageUrl={caseStudies[0]?.cover.url ?? ""}
       heroImageAlt={localize(caseStudies[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="general"
       ctaLabel={t("restorationLab.browseCta")}
       ctaHref={`/experience/restoration-lab/${caseStudies[0]?.slug ?? ""}`}
     >

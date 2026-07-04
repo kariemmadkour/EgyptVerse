@@ -44,6 +44,7 @@ export default async function ExhibitionsHubPage({
       description={t("exhibitions.description")}
       heroImageUrl={current[0]?.cover.url ?? exhibitions[0]?.cover.url ?? ""}
       heroImageAlt={localize(current[0]?.cover.alt ?? exhibitions[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="pharaonic"
       ctaLabel={t("exhibitions.browseCta")}
       ctaHref={`/experience/exhibitions/${(current[0] ?? exhibitions[0])?.slug ?? ""}`}
     >

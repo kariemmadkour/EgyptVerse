@@ -40,6 +40,7 @@ export default async function CollectionsHubPage({
       description={t("collections.description")}
       heroImageUrl={collections[0]?.cover.url ?? ""}
       heroImageAlt={localize(collections[0]?.cover.alt, currentLocale) ?? ""}
+      sectionTheme="greco-roman"
       ctaLabel={t("collections.browseCta")}
       ctaHref="#all-collections"
     >

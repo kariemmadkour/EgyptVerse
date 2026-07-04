@@ -41,6 +41,7 @@ export default async function ArchivesHubPage({
       description={t("archives.description")}
       heroImageUrl={records.items[0]?.thumbnail.url ?? ""}
       heroImageAlt={localize(records.items[0]?.thumbnail.alt, currentLocale) ?? ""}
+      sectionTheme="modern"
       ctaLabel={t("archives.browseCta")}
       ctaHref="/explore/archives/browse"
     >
