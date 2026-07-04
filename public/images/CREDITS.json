@@ -236,5 +236,26 @@
     "author": "Mojmir Churavy",
     "license": "CC0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:SOA_Praha_Restoration_Workshop_A.jpg"
+  },
+  {
+    "path": "manuscripts/arabic-manuscript.jpg",
+    "title": "File:Kitab al-Diryaq Reading books.jpg",
+    "author": "12th century author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kitab_al-Diryaq_Reading_books.jpg"
+  },
+  {
+    "path": "manuscripts/greek-papyrus.jpg",
+    "title": "File:P. Oxy. 1231.jpg",
+    "author": "Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:P._Oxy._1231.jpg"
+  },
+  {
+    "path": "manuscripts/ptolemaic-artifact.jpg",
+    "title": "File:Rosetta Stone.JPG",
+    "author": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG"
   }
 ]

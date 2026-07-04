@@ -20,7 +20,8 @@
       "assistant": "مساعد التراث الذكي",
       "membership": "العضويات",
       "readingRoom": "قاعة القراءة الرقمية",
-      "publications": "المطبوعات"
+      "publications": "المطبوعات",
+      "manuscripts": "المخطوطات"
     },
     "utility": {
       "about": "عن الهيئة",
@@ -32,7 +33,9 @@
     "menuOpen": "فتح القائمة",
     "menuClose": "إغلاق القائمة",
     "skipToContent": "الانتقال إلى المحتوى",
-    "languageSwitcher": "تغيير اللغة"
+    "languageSwitcher": "تغيير اللغة",
+    "manuscriptsHighlight": "المخطوطات",
+    "manuscriptsBadge": "مميز"
   },
   "Footer": {
     "aboutTitle": "الهيئة العامة لدار الكتب والوثائق القومية",
@@ -124,7 +127,10 @@
     "ctaBandText": "انضم كعضو لفتح قاعة القراءة الرقمية ودعم جهود الحفظ لدينا.",
     "ctaBandCta": "عرض خطط العضوية",
     "heroModelTitle": "أدر القناع الذهبي ثلاثي الأبعاد",
-    "heroModelCredit": "نموذج ثلاثي الأبعاد: amirfiala1 عبر Sketchfab، CC BY"
+    "heroModelCredit": "نموذج ثلاثي الأبعاد: amirfiala1 عبر Sketchfab، CC BY",
+    "heroModelToggleOpen": "افتح العارض التفاعلي الكامل ثلاثي الأبعاد",
+    "heroModelToggleClose": "العودة للعرض التفاعلي",
+    "heroModelScrollHint": "مرّر الصفحة لتحريكه"
   },
   "Modules": {
     "library": {
@@ -299,5 +305,16 @@
     "searchTitle": "بحث متقدم",
     "requestsTitle": "طلبات المواد والاستشهادات",
     "requestsIntro": "أرسل طلبًا للاطلاع على مواد مقيدة أو لتصدير استشهادات بحثك."
+  },
+  "Manuscripts": {
+    "eyebrow": "أحدث مبادراتنا",
+    "title": "مخطوطات مصر",
+    "subtitle": "خمس كتابات، حضارة واحدة",
+    "description": "من المراسيم البطلمية القريبة من الهيروغليفية إلى مصاحف العصر العثماني، يمتد تراث مصر المخطوط عبر خمس تقاليد كتابية كبرى تراكمت على مدى ثلاثة آلاف عام. إنها أطمح مبادرات الرقمنة لدينا حتى الآن.",
+    "browseCta": "تصفح المكتبة",
+    "gridEyebrow": "خمس تقاليد",
+    "gridTitle": "تراث مكتوب واحد، خمس كتابات",
+    "gridDescription": "لكل تقليد خطه ومادته وحرفته الخاصة — ومعًا ترسم خطًا متصلًا لمحو الأمية المصرية من البطالمة إلى العثمانيين.",
+    "spotlightCta": "استكشف المخطوطات"
   }
 }

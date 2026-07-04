@@ -39,12 +39,23 @@ export function Header() {
         {t("skipToContent")}
       </a>
       <div className="container-heritage flex h-16 items-center justify-between gap-4 md:h-20">
-        <Link
-          href="/"
-          className="font-heading text-lg font-semibold tracking-tight text-primary md:text-xl"
-        >
-          EgyptVerse
-        </Link>
+        <div className="flex items-center gap-5">
+          <Link
+            href="/"
+            className="font-heading text-lg font-semibold tracking-tight text-primary md:text-xl"
+          >
+            EgyptVerse
+          </Link>
+          <Link
+            href="/manuscripts"
+            className="hidden items-center gap-1.5 rounded-full border border-gold/50 bg-gold/10 px-3 py-1.5 font-heading text-sm font-medium text-terracotta transition-colors hover:bg-gold/20 sm:flex"
+          >
+            {t("manuscriptsHighlight")}
+            <span className="rounded-full bg-gold px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-basalt">
+              {t("manuscriptsBadge")}
+            </span>
+          </Link>
+        </div>
 
         <nav className="hidden lg:block" aria-label="Primary">
           <NavigationMenu>
@@ -95,6 +106,16 @@ export function Header() {
                 <SheetTitle className="font-heading">EgyptVerse</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-6 px-4 pb-8">
+                <Link
+                  href="/manuscripts"
+                  onClick={() => setMobileOpen(false)}
+                  className="flex items-center justify-between gap-2 rounded-lg border border-gold/50 bg-gold/10 px-3 py-2.5 font-heading text-sm font-medium text-terracotta"
+                >
+                  {t("manuscriptsHighlight")}
+                  <span className="rounded-full bg-gold px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-basalt">
+                    {t("manuscriptsBadge")}
+                  </span>
+                </Link>
                 {navPillars.map((pillar) => (
                   <div key={pillar.key}>
                     <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">

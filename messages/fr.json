@@ -20,7 +20,8 @@
       "assistant": "Assistant patrimoine IA",
       "membership": "Adhésion",
       "readingRoom": "Salle de lecture numérique",
-      "publications": "Publications"
+      "publications": "Publications",
+      "manuscripts": "Manuscrits"
     },
     "utility": {
       "about": "À propos",
@@ -32,7 +33,9 @@
     "menuOpen": "Ouvrir le menu",
     "menuClose": "Fermer le menu",
     "skipToContent": "Aller au contenu",
-    "languageSwitcher": "Changer de langue"
+    "languageSwitcher": "Changer de langue",
+    "manuscriptsHighlight": "Manuscrits",
+    "manuscriptsBadge": "À la une"
   },
   "Footer": {
     "aboutTitle": "Autorité générale de la Bibliothèque nationale et des Archives d'Égypte",
@@ -124,7 +127,10 @@
     "ctaBandText": "Devenez membre pour accéder à la salle de lecture numérique et soutenir nos efforts de préservation.",
     "ctaBandCta": "Voir les formules d'adhésion",
     "heroModelTitle": "Faites pivoter le masque doré en 3D",
-    "heroModelCredit": "Modèle 3D : amirfiala1 sur Sketchfab, CC BY"
+    "heroModelCredit": "Modèle 3D : amirfiala1 sur Sketchfab, CC BY",
+    "heroModelToggleOpen": "Ouvrir le visualiseur 3D interactif complet",
+    "heroModelToggleClose": "Revenir à la vue défilante",
+    "heroModelScrollHint": "Faites défiler pour l'animer"
   },
   "Modules": {
     "library": {
@@ -299,5 +305,16 @@
     "searchTitle": "Recherche avancée",
     "requestsTitle": "Demandes de documents et citations",
     "requestsIntro": "Soumettez une demande pour consulter des documents restreints ou exporter des citations pour vos recherches."
+  },
+  "Manuscripts": {
+    "eyebrow": "Notre nouvelle initiative",
+    "title": "Manuscrits d'Égypte",
+    "subtitle": "Cinq écritures, une seule civilisation",
+    "description": "Des décrets ptolémaïques proches des hiéroglyphes aux Corans de l'époque ottomane, le patrimoine manuscrit de l'Égypte couvre cinq grandes traditions d'écriture superposées sur trois mille ans. C'est notre initiative de numérisation la plus ambitieuse à ce jour.",
+    "browseCta": "Parcourir la bibliothèque",
+    "gridEyebrow": "Cinq traditions",
+    "gridTitle": "Un seul patrimoine écrit, cinq écritures",
+    "gridDescription": "Chaque tradition porte sa propre écriture, son matériau et son art — ensemble, elles tracent une ligne ininterrompue de l'alphabétisation égyptienne, des Ptolémées aux Ottomans.",
+    "spotlightCta": "Explorer les manuscrits"
   }
 }

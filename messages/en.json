@@ -20,7 +20,8 @@
       "assistant": "AI Heritage Assistant",
       "membership": "Membership",
       "readingRoom": "Digital Reading Room",
-      "publications": "Publications"
+      "publications": "Publications",
+      "manuscripts": "Manuscripts"
     },
     "utility": {
       "about": "About",
@@ -32,7 +33,9 @@
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
     "skipToContent": "Skip to content",
-    "languageSwitcher": "Change language"
+    "languageSwitcher": "Change language",
+    "manuscriptsHighlight": "Manuscripts",
+    "manuscriptsBadge": "Featured"
   },
   "Footer": {
     "aboutTitle": "General Authority of the National Library and Archives of Egypt",
@@ -124,7 +127,10 @@
     "ctaBandText": "Join as a member to unlock the Digital Reading Room and support our preservation work.",
     "ctaBandCta": "View membership plans",
     "heroModelTitle": "Rotate the golden mask in 3D",
-    "heroModelCredit": "3D model: amirfiala1 on Sketchfab, CC BY"
+    "heroModelCredit": "3D model: amirfiala1 on Sketchfab, CC BY",
+    "heroModelToggleOpen": "Open full interactive 3D viewer",
+    "heroModelToggleClose": "Back to scroll view",
+    "heroModelScrollHint": "Scroll to bring it to life"
   },
   "Modules": {
     "library": {
@@ -299,5 +305,16 @@
     "searchTitle": "Advanced Search",
     "requestsTitle": "Material Requests & Citations",
     "requestsIntro": "Submit a request to view restricted materials or export citations for your research."
+  },
+  "Manuscripts": {
+    "eyebrow": "Our Newest Initiative",
+    "title": "Manuscripts of Egypt",
+    "subtitle": "Five scripts, one civilization",
+    "description": "From hieroglyphic-adjacent Ptolemaic decrees to Ottoman-era Qur'ans, Egypt's manuscript heritage spans five great writing traditions layered across three thousand years. This is our most ambitious digitization initiative yet.",
+    "browseCta": "Browse the Library",
+    "gridEyebrow": "Five Traditions",
+    "gridTitle": "One written heritage, five scripts",
+    "gridDescription": "Each tradition carries its own script, material, and craft — together they trace an unbroken line of Egyptian literacy from the Ptolemies to the Ottomans.",
+    "spotlightCta": "Explore the Manuscripts"
   }
 }

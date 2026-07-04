@@ -3,6 +3,7 @@ import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
 import { getHomeShowcaseData } from "@/application/services/home.service";
 import { HeroSection } from "@/components/modules/home/hero-section";
 import { PillarsGrid } from "@/components/modules/home/pillars-grid";
+import { ManuscriptsSpotlight } from "@/components/modules/home/manuscripts-spotlight";
 import { ContentSection } from "@/components/templates/content-section";
 import { EntityCard } from "@/components/ui/entity-card";
 import { Reveal } from "@/components/motion/reveal";
@@ -32,6 +33,7 @@ export default async function HomePage({
   return (
     <>
       <HeroSection />
+      <ManuscriptsSpotlight locale={currentLocale} />
       <PillarsGrid />
 
       {currentExhibition && (

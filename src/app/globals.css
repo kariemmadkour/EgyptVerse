@@ -254,6 +254,16 @@ html[dir="rtl"] {
   --section-ink: var(--basalt);
 }
 
+/* Manuscripts — the "melting pot" section spanning all five traditions at
+   once, so its surface leans into the richest, most saturated gold rather
+   than any single tradition's tint. */
+[data-section-theme="manuscripts"] {
+  --section-surface: oklch(0.93 0.035 80);
+  --section-surface-strong: oklch(0.87 0.05 78);
+  --section-accent: var(--gold);
+  --section-ink: var(--basalt);
+}
+
 .bg-section-surface {
   background-color: var(--section-surface, var(--papyrus));
 }

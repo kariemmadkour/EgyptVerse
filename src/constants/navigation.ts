@@ -12,6 +12,7 @@ export const navPillars: NavPillar[] = [
   {
     key: "explore",
     modules: [
+      { key: "manuscripts", href: "/manuscripts" },
       { key: "library", href: "/explore/library" },
       { key: "archives", href: "/explore/archives" },
       { key: "museum", href: "/explore/museum" },

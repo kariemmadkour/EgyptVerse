@@ -7,7 +7,7 @@ import type { SVGProps } from "react";
  * and motion language with the rest of the platform (see docs/04-design-system.md).
  */
 
-export type SectionTheme = "pharaonic" | "islamic" | "greco-roman" | "modern" | "general";
+export type SectionTheme = "pharaonic" | "islamic" | "greco-roman" | "modern" | "general" | "manuscripts";
 
 /** Lotus-and-bud frieze, after the Kheker/lotus bands common atop Pharaonic temple walls. */
 export function PharaonicPattern(props: SVGProps<SVGSVGElement>) {
@@ -89,6 +89,39 @@ export function GrecoRomanPattern(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+/**
+ * The "melting pot" motif — one repeating tile stitching together a fragment
+ * of each tradition (girih star, meander, lotus frieze) side by side. Used
+ * only for the Manuscripts section, where all five scripts are the point.
+ */
+export function MixedPattern(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg aria-hidden xmlns="http://www.w3.org/2000/svg" {...props}>
+      <defs>
+        <pattern id="mixed-heritage" width="168" height="56" patternUnits="userSpaceOnUse">
+          <g fill="none" stroke="currentColor" strokeWidth="1.2">
+            <rect x="8" y="8" width="40" height="40" />
+            <rect x="8" y="8" width="40" height="40" transform="rotate(45 28 28)" />
+            <circle cx="28" cy="28" r="10" />
+          </g>
+          <path
+            d="M56 44 H68 V28 H92 V36 H76 V44 H112"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+          />
+          <g fill="none" stroke="currentColor" strokeWidth="1.4">
+            <path d="M120 44 Q136 12 152 44 Q168 12 184 44" />
+            <path d="M152 44 L152 26" />
+            <circle cx="152" cy="22" r="4" />
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#mixed-heritage)" />
+    </svg>
+  );
+}
+
 export function SectionPattern({
   theme,
   className,
@@ -99,5 +132,6 @@ export function SectionPattern({
   if (theme === "islamic") return <IslamicPattern className={className} />;
   if (theme === "greco-roman") return <GrecoRomanPattern className={className} />;
   if (theme === "pharaonic") return <PharaonicPattern className={className} />;
+  if (theme === "manuscripts") return <MixedPattern className={className} />;
   return null;
 }
