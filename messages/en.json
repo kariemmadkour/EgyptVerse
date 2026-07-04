@@ -128,8 +128,8 @@
     "ctaBandCta": "View membership plans",
     "heroModelTitle": "Rotate the golden mask in 3D",
     "heroModelCredit": "3D model: amirfiala1 on Sketchfab, CC BY",
-    "heroModelToggleOpen": "Open full interactive 3D viewer",
-    "heroModelToggleClose": "Back to scroll view",
+    "heroModelToggleOpen": "Play teaser demo",
+    "heroModelToggleClose": "Close",
     "heroModelScrollHint": "Scroll to bring it to life"
   },
   "Modules": {

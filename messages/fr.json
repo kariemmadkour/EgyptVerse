@@ -128,8 +128,8 @@
     "ctaBandCta": "Voir les formules d'adhésion",
     "heroModelTitle": "Faites pivoter le masque doré en 3D",
     "heroModelCredit": "Modèle 3D : amirfiala1 sur Sketchfab, CC BY",
-    "heroModelToggleOpen": "Ouvrir le visualiseur 3D interactif complet",
-    "heroModelToggleClose": "Revenir à la vue défilante",
+    "heroModelToggleOpen": "Lire la démo",
+    "heroModelToggleClose": "Fermer",
     "heroModelScrollHint": "Faites défiler pour l'animer"
   },
   "Modules": {

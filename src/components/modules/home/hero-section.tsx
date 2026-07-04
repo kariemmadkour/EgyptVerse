@@ -39,7 +39,7 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-lapis-deep via-lapis-deep/85 to-lapis-deep/60" />
       <div className="absolute inset-0 bg-gradient-to-b from-basalt/50 via-transparent to-basalt" />
 
-      <div className="container-heritage relative z-10 grid gap-16 py-32 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="container-heritage relative z-10 grid gap-16 py-32 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
         <div>
           <Reveal>
             <p className="text-sm font-semibold uppercase tracking-wider text-gold">

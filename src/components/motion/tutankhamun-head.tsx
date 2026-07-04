@@ -30,9 +30,14 @@ function pseudoRandom(seed: number): number {
   return x - Math.floor(x);
 }
 
-function MaskGem() {
+/**
+ * The Tutankhamun head on its own — no faceted "Heritage Sphere" shell here
+ * (that motif now lives only on the Museum object 3D-preview placeholder,
+ * see three-artifact-preview.tsx). Just the real mask photo, curved onto a
+ * near-full bust silhouette, lit and rotated on its own.
+ */
+function Head() {
   const groupRef = useRef<THREE.Group>(null);
-  const shellRef = useRef<THREE.Mesh>(null);
   const elapsedRef = useRef(0);
   const impulseRef = useScrollImpulse();
 
@@ -54,50 +59,28 @@ function MaskGem() {
   }, [rawTexture]);
 
   useFrame((_, delta) => {
-    if (prefersReducedMotion || !groupRef.current || !shellRef.current) return;
+    if (prefersReducedMotion || !groupRef.current) return;
     elapsedRef.current += delta;
 
     // Idle drift plus a scroll-driven "kick" that decays smoothly — reactive
     // while scrolling, but never fully still.
     impulseRef.current *= 0.95;
-    const baseSpeed = 0.12;
+    const baseSpeed = 0.1;
     groupRef.current.rotation.y += (baseSpeed + impulseRef.current * 0.6) * delta;
 
     // Slow, irrational-ratio sine layering reads as organic "random" wobble
     // rather than a mechanical, perfectly periodic spin.
     groupRef.current.rotation.x =
-      Math.sin(elapsedRef.current * 0.17) * 0.1 + Math.sin(elapsedRef.current * 0.083) * 0.05;
+      Math.sin(elapsedRef.current * 0.17) * 0.08 + Math.sin(elapsedRef.current * 0.083) * 0.04;
     groupRef.current.rotation.z =
-      Math.cos(elapsedRef.current * 0.11) * 0.035 + impulseRef.current * 0.02;
-
-    shellRef.current.rotation.y -= delta * 0.05;
+      Math.cos(elapsedRef.current * 0.11) * 0.025 + impulseRef.current * 0.02;
   });
 
   return (
     <group ref={groupRef}>
-      {/* Faceted gold shell — the "Heritage Sphere" language, now wrapped around the mask */}
-      <mesh ref={shellRef}>
-        <icosahedronGeometry args={[1.9, 1]} />
-        <meshStandardMaterial
-          color="#c9a24b"
-          metalness={0.85}
-          roughness={0.25}
-          transparent
-          opacity={0.28}
-          emissive="#c9a24b"
-          emissiveIntensity={0.12}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
       <mesh>
-        <icosahedronGeometry args={[1.9, 1]} />
-        <meshBasicMaterial color="#e8d9a8" wireframe transparent opacity={0.5} />
-      </mesh>
-
-      {/* The mask itself, projected onto a curved "viewport" segment facing the camera */}
-      <mesh rotation={[0, 0, 0]}>
-        <sphereGeometry args={[1.55, 48, 48, -Math.PI * 0.55, Math.PI * 1.1, Math.PI * 0.12, Math.PI * 0.82]} />
-        <meshStandardMaterial map={texture} metalness={0.1} roughness={0.6} side={THREE.FrontSide} />
+        <sphereGeometry args={[2.15, 64, 64, -Math.PI * 0.7, Math.PI * 1.4, Math.PI * 0.06, Math.PI * 0.92]} />
+        <meshStandardMaterial map={texture} metalness={0.15} roughness={0.55} side={THREE.DoubleSide} />
       </mesh>
     </group>
   );
@@ -125,18 +108,18 @@ function Particles() {
   );
 }
 
-export function TutankhamunMaskSphere() {
+export function TutankhamunHead() {
   return (
     <Canvas
-      camera={{ position: [0, 0, 5], fov: 42 }}
+      camera={{ position: [0, 0, 4.3], fov: 42 }}
       dpr={[1, 1.5]}
       gl={{ alpha: true, antialias: true }}
     >
-      <ambientLight intensity={0.7} />
-      <pointLight position={[4, 4, 5]} intensity={1.4} color="#f3d98b" />
+      <ambientLight intensity={0.75} />
+      <pointLight position={[4, 4, 5]} intensity={1.6} color="#f3d98b" />
       <pointLight position={[-4, -2, -3]} intensity={0.5} color="#4a6fa5" />
       <Suspense fallback={null}>
-        <MaskGem />
+        <Head />
         <Particles />
       </Suspense>
     </Canvas>
