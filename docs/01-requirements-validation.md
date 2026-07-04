@@ -1,4 +1,4 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse Platform
 ## Milestone 1 — Requirements Validation
 
 **Client:** General Authority of the National Library and Archives of Egypt

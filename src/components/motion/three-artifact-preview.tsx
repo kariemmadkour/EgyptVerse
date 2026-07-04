@@ -61,7 +61,13 @@ function Particles() {
   );
 }
 
-export function ThreeHeroScene() {
+/**
+ * Generic "no scan available yet" 3D preview — a slowly rotating wireframe
+ * artifact in a field of gold dust. Used as the placeholder media viewer for
+ * museum objects that don't have a real photogrammetry scan (see
+ * item-detail-template.tsx `mediaViewer` slot).
+ */
+export function ThreeArtifactPreview() {
   return (
     <Canvas
       camera={{ position: [0, 0, 5.5], fov: 45 }}

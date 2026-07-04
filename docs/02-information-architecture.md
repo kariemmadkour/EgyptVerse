@@ -1,4 +1,4 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse Platform
 ## Milestone 2 — Information Architecture
 
 **Status:** Draft — pending stakeholder approval

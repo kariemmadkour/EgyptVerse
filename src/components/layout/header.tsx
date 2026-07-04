@@ -43,7 +43,7 @@ export function Header() {
           href="/"
           className="font-heading text-lg font-semibold tracking-tight text-primary md:text-xl"
         >
-          Egypt Digital Heritage
+          EgyptVerse
         </Link>
 
         <nav className="hidden lg:block" aria-label="Primary">
@@ -92,7 +92,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side={sheetSide} className="w-[85vw] max-w-sm overflow-y-auto">
               <SheetHeader>
-                <SheetTitle className="font-heading">Egypt Digital Heritage</SheetTitle>
+                <SheetTitle className="font-heading">EgyptVerse</SheetTitle>
               </SheetHeader>
               <div className="flex flex-col gap-6 px-4 pb-8">
                 {navPillars.map((pillar) => (

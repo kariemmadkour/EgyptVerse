@@ -1,4 +1,4 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse Platform
 ## Milestone 4 — Design System
 
 **Status:** Implemented in [src/app/globals.css](../src/app/globals.css) and [src/lib/fonts.ts](../src/lib/fonts.ts)

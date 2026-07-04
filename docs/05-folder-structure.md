@@ -1,4 +1,4 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse Platform
 ## Milestone 5 — Folder Structure
 
 **Status:** Implemented — see the live tree under `src/`

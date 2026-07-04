@@ -1,4 +1,4 @@
-# Egypt Digital Heritage Platform
+# EgyptVerse Platform
 ## Milestone 3 — UX Flows
 
 **Status:** Implemented in Phase 1 frontend

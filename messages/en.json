@@ -122,7 +122,9 @@
     "eventsTitle": "Upcoming events",
     "ctaBandTitle": "Become part of the story",
     "ctaBandText": "Join as a member to unlock the Digital Reading Room and support our preservation work.",
-    "ctaBandCta": "View membership plans"
+    "ctaBandCta": "View membership plans",
+    "heroModelTitle": "Rotate the golden mask in 3D",
+    "heroModelCredit": "3D model: amirfiala1 on Sketchfab, CC BY"
   },
   "Modules": {
     "library": {
@@ -141,7 +143,8 @@
       "title": "Digital Museum",
       "subtitle": "Masterworks across the ages",
       "description": "Discover high-resolution imagery and 3D models of artifacts spanning Pharaonic, Islamic, and modern Egypt.",
-      "browseCta": "Browse the galleries"
+      "browseCta": "Browse the galleries",
+      "threeDPreviewLabel": "Interactive 3D preview — drag to rotate"
     },
     "collections": {
       "title": "Digital Collections",
@@ -238,7 +241,7 @@
     },
     "terms": {
       "title": "Terms of Use",
-      "intro": "The terms governing use of the Egypt Digital Heritage Platform."
+      "intro": "The terms governing use of the EgyptVerse Platform."
     },
     "sitemap": {
       "title": "Sitemap",

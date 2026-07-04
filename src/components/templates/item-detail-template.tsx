@@ -24,6 +24,8 @@ interface ItemDetailTemplateProps {
   relatedTitle?: string;
   related?: ReactNode;
   showDownload?: boolean;
+  /** Overrides the static image with a richer viewer (e.g. a 3D preview) when available. */
+  mediaViewer?: ReactNode;
 }
 
 export function ItemDetailTemplate({
@@ -38,6 +40,7 @@ export function ItemDetailTemplate({
   relatedTitle,
   related,
   showDownload = false,
+  mediaViewer,
 }: ItemDetailTemplateProps) {
   const t = useTranslations("Common");
 
@@ -47,6 +50,7 @@ export function ItemDetailTemplate({
       <article className="container-heritage grid gap-10 py-10 md:grid-cols-2 md:py-16 lg:gap-16">
         <Reveal className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-muted">
           <Image src={imageUrl} alt={imageAlt} fill sizes="(min-width: 768px) 50vw, 100vw" className="object-cover" priority />
+          {mediaViewer && <div className="absolute inset-0 bg-basalt">{mediaViewer}</div>}
         </Reveal>
 
         <Reveal delay={0.1}>

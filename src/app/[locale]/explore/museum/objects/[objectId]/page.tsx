@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
 import { ItemDetailTemplate } from "@/components/templates/item-detail-template";
 import { EntityCard } from "@/components/ui/entity-card";
+import { Object3DViewer } from "@/components/modules/museum/object-3d-viewer";
 import { container } from "@/infrastructure/di/container";
 import { localize } from "@/domain/entities";
 import type { Locale } from "@/i18n/routing";
@@ -54,6 +55,7 @@ export default async function MuseumObjectPage({
       description={localize(obj.description, currentLocale)}
       imageUrl={obj.images[0].url}
       imageAlt={localize(obj.images[0].alt, currentLocale)}
+      mediaViewer={obj.has3dModel ? <Object3DViewer /> : undefined}
       badges={[localize(obj.category, currentLocale), obj.has3dModel ? "3D" : localize(obj.material, currentLocale)]}
       metadata={[
         { label: tCommon("year"), value: localize(obj.period, currentLocale) },

@@ -122,7 +122,9 @@
     "eventsTitle": "Événements à venir",
     "ctaBandTitle": "Faites partie de l'histoire",
     "ctaBandText": "Devenez membre pour accéder à la salle de lecture numérique et soutenir nos efforts de préservation.",
-    "ctaBandCta": "Voir les formules d'adhésion"
+    "ctaBandCta": "Voir les formules d'adhésion",
+    "heroModelTitle": "Faites pivoter le masque doré en 3D",
+    "heroModelCredit": "Modèle 3D : amirfiala1 sur Sketchfab, CC BY"
   },
   "Modules": {
     "library": {
@@ -141,7 +143,8 @@
       "title": "Musée numérique",
       "subtitle": "Chefs-d'œuvre à travers les âges",
       "description": "Découvrez des images haute résolution et des modèles 3D d'artefacts de l'Égypte pharaonique, islamique et moderne.",
-      "browseCta": "Parcourir les galeries"
+      "browseCta": "Parcourir les galeries",
+      "threeDPreviewLabel": "Aperçu 3D interactif — glissez pour faire pivoter"
     },
     "collections": {
       "title": "Collections numériques",

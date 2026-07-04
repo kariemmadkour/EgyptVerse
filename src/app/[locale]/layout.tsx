@@ -34,7 +34,7 @@ export async function generateMetadata({
   return {
     title: {
       default: t("heroTitle"),
-      template: "%s — Egypt Digital Heritage Platform",
+      template: "%s — EgyptVerse",
     },
     description: t("heroSubtitle"),
     metadataBase: new URL("https://egypt-digital-heritage.vercel.app"),
