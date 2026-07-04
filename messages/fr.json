@@ -129,8 +129,8 @@
     "heroModelTitle": "Faites pivoter le masque doré en 3D",
     "heroModelCredit": "Modèle 3D : amirfiala1 sur Sketchfab, CC BY",
     "heroModelToggleOpen": "Lire la démo",
-    "heroModelToggleClose": "Fermer",
-    "heroModelScrollHint": "Faites défiler pour l'animer"
+    "heroModelSideLabel": "Scan 3D complet",
+    "heroModelDialogTitle": "Masque doré de Toutânkhamon — Scan 3D complet"
   },
   "Modules": {
     "library": {

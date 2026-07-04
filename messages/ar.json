@@ -129,8 +129,8 @@
     "heroModelTitle": "أدر القناع الذهبي ثلاثي الأبعاد",
     "heroModelCredit": "نموذج ثلاثي الأبعاد: amirfiala1 عبر Sketchfab، CC BY",
     "heroModelToggleOpen": "شغّل العرض التجريبي",
-    "heroModelToggleClose": "إغلاق",
-    "heroModelScrollHint": "مرّر الصفحة لتحريكه"
+    "heroModelSideLabel": "المسح الكامل 3D",
+    "heroModelDialogTitle": "قناع توت عنخ آمون الذهبي — مسح ثلاثي الأبعاد كامل"
   },
   "Modules": {
     "library": {

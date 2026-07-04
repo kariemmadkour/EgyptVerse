@@ -30,16 +30,43 @@ function pseudoRandom(seed: number): number {
   return x - Math.floor(x);
 }
 
+/** A fresh, random-feeling phase/frequency per axis so the float pattern
+ * never looks identical twice, while still moving smoothly (sine-based,
+ * never a jump). Randomized in an effect, not during render, since
+ * `Math.random` is impure. */
+function useFloatSeed() {
+  const seedRef = useRef({
+    xPhase: 0,
+    yPhase: Math.PI / 2,
+    xFreq: 0.15,
+    yFreq: 0.11,
+    yawPhase: 0,
+  });
+
+  useEffect(() => {
+    seedRef.current = {
+      xPhase: Math.random() * Math.PI * 2,
+      yPhase: Math.random() * Math.PI * 2,
+      xFreq: 0.15 + Math.random() * 0.1,
+      yFreq: 0.11 + Math.random() * 0.08,
+      yawPhase: Math.random() * Math.PI * 2,
+    };
+  }, []);
+
+  return seedRef;
+}
+
 /**
  * The Tutankhamun head on its own — no faceted "Heritage Sphere" shell here
  * (that motif now lives only on the Museum object 3D-preview placeholder,
  * see three-artifact-preview.tsx). Just the real mask photo, curved onto a
- * near-full bust silhouette, lit and rotated on its own.
+ * near-full bust silhouette, drifting and rotating on its own.
  */
 function Head() {
   const groupRef = useRef<THREE.Group>(null);
   const elapsedRef = useRef(0);
   const impulseRef = useScrollImpulse();
+  const floatSeedRef = useFloatSeed();
 
   const prefersReducedMotion = useMemo(
     () =>
@@ -61,26 +88,40 @@ function Head() {
   useFrame((_, delta) => {
     if (prefersReducedMotion || !groupRef.current) return;
     elapsedRef.current += delta;
+    const t = elapsedRef.current;
 
-    // Idle drift plus a scroll-driven "kick" that decays smoothly — reactive
-    // while scrolling, but never fully still.
+    // Scroll-driven "kick" that decays smoothly — reactive while scrolling,
+    // but never fully still.
     impulseRef.current *= 0.95;
-    const baseSpeed = 0.1;
-    groupRef.current.rotation.y += (baseSpeed + impulseRef.current * 0.6) * delta;
+    const seed = floatSeedRef.current;
+
+    // Bounded "look around" yaw, not a full spin — the photo only wraps
+    // ~252° of the sphere, so a continuous 360° rotation would eventually
+    // swing the untextured back of the mesh into view. Oscillating within
+    // a safe range keeps the mask's face on camera at all times.
+    groupRef.current.rotation.y = Math.sin(t * 0.09 + seed.yawPhase) * 0.3 + impulseRef.current * 0.08;
 
     // Slow, irrational-ratio sine layering reads as organic "random" wobble
     // rather than a mechanical, perfectly periodic spin.
-    groupRef.current.rotation.x =
-      Math.sin(elapsedRef.current * 0.17) * 0.08 + Math.sin(elapsedRef.current * 0.083) * 0.04;
-    groupRef.current.rotation.z =
-      Math.cos(elapsedRef.current * 0.11) * 0.025 + impulseRef.current * 0.02;
+    groupRef.current.rotation.x = Math.sin(t * 0.17) * 0.06 + Math.sin(t * 0.083) * 0.03;
+    groupRef.current.rotation.z = Math.cos(t * 0.11) * 0.02;
+
+    // Gentle floating drift — up/down and left/right — on a per-mount random
+    // phase/frequency, so the motion "invents" a new path each time without
+    // ever jumping or repeating identically.
+    groupRef.current.position.y = Math.sin(t * seed.yFreq + seed.yPhase) * 0.28;
+    groupRef.current.position.x = Math.sin(t * seed.xFreq + seed.xPhase) * 0.32;
   });
 
   return (
     <group ref={groupRef}>
+      {/* A flat plane, not a sphere segment — the photo only covers part of
+          any curved wrap, and a segment large enough to rotate safely without
+          ever exposing that gap ended up defeating the point of curving it.
+          Rotation/tilt/float still read as a real object in 3D space. */}
       <mesh>
-        <sphereGeometry args={[2.15, 64, 64, -Math.PI * 0.7, Math.PI * 1.4, Math.PI * 0.06, Math.PI * 0.92]} />
-        <meshStandardMaterial map={texture} metalness={0.15} roughness={0.55} side={THREE.DoubleSide} />
+        <planeGeometry args={[2.6, 3.47]} />
+        <meshStandardMaterial map={texture} metalness={0.1} roughness={0.6} side={THREE.DoubleSide} />
       </mesh>
     </group>
   );
@@ -111,7 +152,7 @@ function Particles() {
 export function TutankhamunHead() {
   return (
     <Canvas
-      camera={{ position: [0, 0, 4.3], fov: 42 }}
+      camera={{ position: [0, 0, 6.5], fov: 38 }}
       dpr={[1, 1.5]}
       gl={{ alpha: true, antialias: true }}
     >

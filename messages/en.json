@@ -129,8 +129,8 @@
     "heroModelTitle": "Rotate the golden mask in 3D",
     "heroModelCredit": "3D model: amirfiala1 on Sketchfab, CC BY",
     "heroModelToggleOpen": "Play teaser demo",
-    "heroModelToggleClose": "Close",
-    "heroModelScrollHint": "Scroll to bring it to life"
+    "heroModelSideLabel": "Full 3D scan",
+    "heroModelDialogTitle": "Tutankhamun's Golden Mask — Full 3D Scan"
   },
   "Modules": {
     "library": {
