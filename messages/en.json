@@ -1,0 +1,299 @@
+{
+  "Nav": {
+    "pillars": {
+      "explore": "Explore the Collections",
+      "experience": "Experience Our Heritage",
+      "engage": "Engage & Learn",
+      "access": "Access & Membership"
+    },
+    "modules": {
+      "library": "National Library",
+      "archives": "National Archives",
+      "museum": "Digital Museum",
+      "collections": "Digital Collections",
+      "exhibitions": "Virtual Exhibitions",
+      "timelines": "Interactive Timelines",
+      "restorationLab": "Restoration Laboratory",
+      "research": "Research Portal",
+      "learn": "Educational Platform",
+      "events": "Events Portal",
+      "assistant": "AI Heritage Assistant",
+      "membership": "Membership",
+      "readingRoom": "Digital Reading Room",
+      "publications": "Publications"
+    },
+    "utility": {
+      "about": "About",
+      "visit": "Visit",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "search": "Search",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "skipToContent": "Skip to content",
+    "languageSwitcher": "Change language"
+  },
+  "Footer": {
+    "aboutTitle": "General Authority of the National Library and Archives of Egypt",
+    "aboutText": "Preserving and sharing Egypt's written and cultural heritage for present and future generations.",
+    "explore": "Explore",
+    "experience": "Experience",
+    "engage": "Engage",
+    "access": "Access",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "accessibility": "Accessibility Statement",
+    "sitemap": "Sitemap",
+    "newsletterTitle": "Stay Informed",
+    "newsletterText": "Subscribe to receive updates on new exhibitions, publications, and events.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterCta": "Subscribe",
+    "socialTitle": "Follow Us",
+    "copyright": "© {year} General Authority of the National Library and Archives of Egypt. All rights reserved."
+  },
+  "Common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "learnMore": "Learn more",
+    "exploreCollection": "Explore collection",
+    "backToTop": "Back to top",
+    "loading": "Loading…",
+    "noResults": "No results found",
+    "breadcrumbHome": "Home",
+    "share": "Share",
+    "download": "Download",
+    "register": "Register",
+    "viewDetails": "View details",
+    "filters": "Filters",
+    "sortBy": "Sort by",
+    "search": "Search",
+    "searchPlaceholder": "Search books, archives, objects, events…",
+    "featured": "Featured",
+    "digitized": "Digitized",
+    "free": "Free",
+    "capacity": "Capacity",
+    "seatsLeft": "seats left",
+    "minutes": "min",
+    "pages": "pages",
+    "year": "Year",
+    "author": "Author",
+    "callNumber": "Call number",
+    "provenance": "Provenance",
+    "reference": "Reference",
+    "dateRange": "Date range",
+    "material": "Material",
+    "dimensions": "Dimensions",
+    "before": "Before",
+    "after": "After",
+    "technique": "Technique",
+    "conservator": "Conservator",
+    "weeks": "weeks",
+    "duration": "Duration",
+    "formSuccess": "Thank you — your submission has been received. This is a Phase 1 preview, so no data is actually stored.",
+    "journals": "Journals & Periodicals",
+    "relatedItems": "Related items",
+    "tableOfContents": "Table of contents",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "browse": "Browse",
+    "all": "All"
+  },
+  "Home": {
+    "heroEyebrow": "General Authority of the National Library and Archives of Egypt",
+    "heroTitle": "Egypt's Living Heritage, Digitized",
+    "heroSubtitle": "A single destination for the National Library, Archives, and Museum — bringing three millennia of written and cultural heritage within reach.",
+    "heroCta": "Begin exploring",
+    "heroSecondaryCta": "Watch the film",
+    "statsVisitors": "Digital visitors",
+    "statsItems": "Digitized items",
+    "statsManuscripts": "Rare manuscripts",
+    "statsLanguages": "Languages supported",
+    "pillarsTitle": "Four ways to discover",
+    "currentExhibitionLabel": "Now showing",
+    "featuredBooksTitle": "From the Library",
+    "featuredObjectsTitle": "From the Museum",
+    "timelineTeaserTitle": "Journey through time",
+    "timelineTeaserCta": "Explore the timeline",
+    "newsTitle": "Latest news",
+    "eventsTitle": "Upcoming events",
+    "ctaBandTitle": "Become part of the story",
+    "ctaBandText": "Join as a member to unlock the Digital Reading Room and support our preservation work.",
+    "ctaBandCta": "View membership plans"
+  },
+  "Modules": {
+    "library": {
+      "title": "National Library",
+      "subtitle": "Three thousand years of the written word",
+      "description": "Browse a growing catalog of manuscripts, printed books, periodicals, and maps spanning Egypt's literary and scholarly history.",
+      "browseCta": "Browse the catalog"
+    },
+    "archives": {
+      "title": "National Archives",
+      "subtitle": "The paper trail of a nation",
+      "description": "Explore administrative records, correspondence, engineering plans, and photographs documenting modern Egyptian history.",
+      "browseCta": "Browse the archives"
+    },
+    "museum": {
+      "title": "Digital Museum",
+      "subtitle": "Masterworks across the ages",
+      "description": "Discover high-resolution imagery and 3D models of artifacts spanning Pharaonic, Islamic, and modern Egypt.",
+      "browseCta": "Browse the galleries"
+    },
+    "collections": {
+      "title": "Digital Collections",
+      "subtitle": "Stories that cross the archive",
+      "description": "Curated, cross-module collections weaving together books, records, and objects around a single theme.",
+      "browseCta": "Browse collections"
+    },
+    "exhibitions": {
+      "title": "Virtual Exhibitions",
+      "subtitle": "Immersive storytelling",
+      "description": "Step into scroll-driven exhibitions that bring artifacts and history to life.",
+      "browseCta": "View exhibitions"
+    },
+    "timelines": {
+      "title": "Interactive Timelines",
+      "subtitle": "Five thousand years, one thread",
+      "description": "Navigate the eras of Egyptian history through an interactive, artifact-linked timeline.",
+      "browseCta": "Explore timelines"
+    },
+    "restorationLab": {
+      "title": "Restoration Laboratory",
+      "subtitle": "Behind the conservation bench",
+      "description": "See how our conservators bring fragile manuscripts and artifacts back to life.",
+      "browseCta": "See case studies"
+    },
+    "research": {
+      "title": "Research Portal",
+      "subtitle": "Tools built for scholars",
+      "description": "Advanced search, citation exports, and material request workflows for academic researchers.",
+      "browseCta": "Enter the portal"
+    },
+    "learn": {
+      "title": "Educational Platform",
+      "subtitle": "Learning paths for every curiosity",
+      "description": "Structured lessons on Egyptology, conservation, and heritage studies for all levels.",
+      "browseCta": "Start learning"
+    },
+    "events": {
+      "title": "Events Portal",
+      "subtitle": "What's happening",
+      "description": "Lectures, workshops, tours, and open days across the Authority's venues.",
+      "browseCta": "See all events"
+    },
+    "assistant": {
+      "title": "AI Heritage Assistant",
+      "subtitle": "Ask anything about Egypt's heritage",
+      "description": "A conversational guide to the Library, Archives, and Museum's collections.",
+      "browseCta": "Start a conversation"
+    },
+    "membership": {
+      "title": "Membership",
+      "subtitle": "Join the community of stewards",
+      "description": "Tiered membership plans unlocking research access and exclusive events.",
+      "browseCta": "View plans"
+    },
+    "readingRoom": {
+      "title": "Digital Reading Room",
+      "subtitle": "Secure access to rare materials",
+      "description": "A controlled-access viewer for restricted archival and library materials.",
+      "browseCta": "Request access"
+    },
+    "publications": {
+      "title": "Publications",
+      "subtitle": "Scholarship in print",
+      "description": "Journals, monographs, and reference guides published by the Authority.",
+      "browseCta": "Browse publications"
+    }
+  },
+  "Static": {
+    "about": {
+      "title": "About the Authority",
+      "intro": "The General Authority of the National Library and Archives of Egypt safeguards and shares the nation's written and documentary heritage."
+    },
+    "visit": {
+      "title": "Plan Your Visit",
+      "intro": "Everything you need to know before visiting our reading rooms, galleries, and research facilities."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "Reach our teams for research inquiries, partnerships, or general questions.",
+      "formName": "Full name",
+      "formEmail": "Email address",
+      "formSubject": "Subject",
+      "formMessage": "Message",
+      "formSubmit": "Send message"
+    },
+    "accessibility": {
+      "title": "Accessibility Statement",
+      "intro": "Our commitment to an inclusive, accessible experience for every visitor, in line with WCAG 2.2 AA."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "How we collect, use, and protect your information across our digital services."
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "intro": "The terms governing use of the Egypt Digital Heritage Platform."
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "intro": "A complete overview of every section of the platform."
+    },
+    "news": {
+      "title": "News",
+      "intro": "Announcements, exhibition openings, and stories from across the Authority."
+    }
+  },
+  "Search": {
+    "title": "Search",
+    "resultsFor": "Results for \"{query}\"",
+    "resultsCount": "{count, plural, =0 {No results} one {# result} other {# results}}",
+    "groupBook": "Library Books",
+    "groupArchivalRecord": "Archival Records",
+    "groupMuseumObject": "Museum Objects",
+    "groupPublication": "Publications",
+    "groupEvent": "Events",
+    "groupLesson": "Lessons",
+    "emptyStateTitle": "Start typing to search",
+    "emptyStateText": "Search across the Library, Archives, Museum, Publications, and more."
+  },
+  "Membership": {
+    "title": "Membership Plans",
+    "subtitle": "Choose the plan that fits how you engage with Egypt's heritage",
+    "perYear": "per year",
+    "freeLabel": "Free",
+    "join": "Join now",
+    "mostPopular": "Most popular",
+    "benefitsTitle": "What's included",
+    "mockMemberName": "Amina Hassan",
+    "mockMemberEmail": "amina.hassan@example.com",
+    "accountNotice": "This account view uses a mocked, signed-in member for Phase 1 demonstration purposes only — there is no real authentication yet.",
+    "memberSince": "Member since"
+  },
+  "ReadingRoom": {
+    "gateTitle": "Digital Reading Room",
+    "gateDescription": "Access to restricted archival and library materials is granted to verified researchers and members.",
+    "requestAccessCta": "Request access",
+    "sessionTitle": "Secure viewing session",
+    "sessionNotice": "This is a controlled-access viewer. Downloading and printing are disabled for restricted materials."
+  },
+  "Assistant": {
+    "welcomeMessage": "Ahlan! I'm the Heritage Assistant. Ask me anything about the Library, Archives, or Museum collections.",
+    "inputPlaceholder": "Ask about a manuscript, artifact, or era…",
+    "disclaimer": "Responses are illustrative and drawn from mock data in this Phase 1 preview.",
+    "send": "Send",
+    "replyRosetta": "The Rosetta Stone decipherment is documented in our Library's Egyptology collection — see Champollion's decipherment journal, and its story is retold on the Modern Egypt timeline.",
+    "replyMask": "The Funerary Mask of a Priestess is on display in the Digital Museum's Pharaonic Egypt gallery, from the 21st Dynasty.",
+    "replyMembership": "You can explore our three membership tiers — Explorer, Researcher, and Patron — on the Membership page under Access & Membership.",
+    "replyDefault": "That's a great question for our collections. Try exploring the National Library, Digital Museum, or Interactive Timelines — this Phase 1 preview uses illustrative mock answers rather than a live model."
+  },
+  "Research": {
+    "searchTitle": "Advanced Search",
+    "requestsTitle": "Material Requests & Citations",
+    "requestsIntro": "Submit a request to view restricted materials or export citations for your research."
+  }
+}

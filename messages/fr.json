@@ -1,0 +1,299 @@
+{
+  "Nav": {
+    "pillars": {
+      "explore": "Explorer les collections",
+      "experience": "Vivre notre patrimoine",
+      "engage": "Participer et apprendre",
+      "access": "Accès et adhésion"
+    },
+    "modules": {
+      "library": "Bibliothèque nationale",
+      "archives": "Archives nationales",
+      "museum": "Musée numérique",
+      "collections": "Collections numériques",
+      "exhibitions": "Expositions virtuelles",
+      "timelines": "Frises chronologiques interactives",
+      "restorationLab": "Laboratoire de restauration",
+      "research": "Portail de recherche",
+      "learn": "Plateforme éducative",
+      "events": "Portail des événements",
+      "assistant": "Assistant patrimoine IA",
+      "membership": "Adhésion",
+      "readingRoom": "Salle de lecture numérique",
+      "publications": "Publications"
+    },
+    "utility": {
+      "about": "À propos",
+      "visit": "Visiter",
+      "news": "Actualités",
+      "contact": "Contact"
+    },
+    "search": "Rechercher",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu",
+    "skipToContent": "Aller au contenu",
+    "languageSwitcher": "Changer de langue"
+  },
+  "Footer": {
+    "aboutTitle": "Autorité générale de la Bibliothèque nationale et des Archives d'Égypte",
+    "aboutText": "Nous préservons et partageons le patrimoine écrit et culturel de l'Égypte pour les générations présentes et futures.",
+    "explore": "Explorer",
+    "experience": "Vivre",
+    "engage": "Participer",
+    "access": "Accès",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "accessibility": "Déclaration d'accessibilité",
+    "sitemap": "Plan du site",
+    "newsletterTitle": "Restez informé",
+    "newsletterText": "Abonnez-vous pour recevoir les actualités sur les expositions, publications et événements.",
+    "newsletterPlaceholder": "Votre adresse e-mail",
+    "newsletterCta": "S'abonner",
+    "socialTitle": "Suivez-nous",
+    "copyright": "© {year} Autorité générale de la Bibliothèque nationale et des Archives d'Égypte. Tous droits réservés."
+  },
+  "Common": {
+    "readMore": "Lire la suite",
+    "viewAll": "Tout voir",
+    "learnMore": "En savoir plus",
+    "exploreCollection": "Explorer la collection",
+    "backToTop": "Retour en haut",
+    "loading": "Chargement…",
+    "noResults": "Aucun résultat trouvé",
+    "breadcrumbHome": "Accueil",
+    "share": "Partager",
+    "download": "Télécharger",
+    "register": "S'inscrire",
+    "viewDetails": "Voir les détails",
+    "filters": "Filtres",
+    "sortBy": "Trier par",
+    "search": "Rechercher",
+    "searchPlaceholder": "Rechercher des livres, archives, objets, événements…",
+    "featured": "En vedette",
+    "digitized": "Numérisé",
+    "free": "Gratuit",
+    "capacity": "Capacité",
+    "seatsLeft": "places restantes",
+    "minutes": "min",
+    "pages": "pages",
+    "year": "Année",
+    "author": "Auteur",
+    "callNumber": "Cote",
+    "provenance": "Provenance",
+    "reference": "Référence",
+    "dateRange": "Période",
+    "material": "Matériau",
+    "dimensions": "Dimensions",
+    "before": "Avant",
+    "after": "Après",
+    "technique": "Technique",
+    "conservator": "Restaurateur",
+    "weeks": "semaines",
+    "duration": "Durée",
+    "formSuccess": "Merci — votre demande a bien été reçue. Ceci est un aperçu de la Phase 1 ; aucune donnée n'est réellement stockée.",
+    "journals": "Revues et périodiques",
+    "relatedItems": "Éléments associés",
+    "tableOfContents": "Table des matières",
+    "close": "Fermer",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "browse": "Parcourir",
+    "all": "Tout"
+  },
+  "Home": {
+    "heroEyebrow": "Autorité générale de la Bibliothèque nationale et des Archives d'Égypte",
+    "heroTitle": "Le patrimoine vivant de l'Égypte, numérisé",
+    "heroSubtitle": "Une destination unique réunissant la Bibliothèque nationale, les Archives et le Musée — trois millénaires de patrimoine écrit et culturel à portée de main.",
+    "heroCta": "Commencer l'exploration",
+    "heroSecondaryCta": "Voir le film",
+    "statsVisitors": "Visiteurs numériques",
+    "statsItems": "Éléments numérisés",
+    "statsManuscripts": "Manuscrits rares",
+    "statsLanguages": "Langues prises en charge",
+    "pillarsTitle": "Quatre façons de découvrir",
+    "currentExhibitionLabel": "À l'affiche",
+    "featuredBooksTitle": "De la Bibliothèque",
+    "featuredObjectsTitle": "Du Musée",
+    "timelineTeaserTitle": "Un voyage à travers le temps",
+    "timelineTeaserCta": "Explorer la frise chronologique",
+    "newsTitle": "Dernières actualités",
+    "eventsTitle": "Événements à venir",
+    "ctaBandTitle": "Faites partie de l'histoire",
+    "ctaBandText": "Devenez membre pour accéder à la salle de lecture numérique et soutenir nos efforts de préservation.",
+    "ctaBandCta": "Voir les formules d'adhésion"
+  },
+  "Modules": {
+    "library": {
+      "title": "Bibliothèque nationale",
+      "subtitle": "Trois mille ans d'écrit",
+      "description": "Parcourez un catalogue croissant de manuscrits, livres imprimés, périodiques et cartes retraçant l'histoire littéraire et savante de l'Égypte.",
+      "browseCta": "Parcourir le catalogue"
+    },
+    "archives": {
+      "title": "Archives nationales",
+      "subtitle": "La trace écrite d'une nation",
+      "description": "Explorez les registres administratifs, correspondances, plans d'ingénierie et photographies documentant l'Égypte moderne.",
+      "browseCta": "Parcourir les archives"
+    },
+    "museum": {
+      "title": "Musée numérique",
+      "subtitle": "Chefs-d'œuvre à travers les âges",
+      "description": "Découvrez des images haute résolution et des modèles 3D d'artefacts de l'Égypte pharaonique, islamique et moderne.",
+      "browseCta": "Parcourir les galeries"
+    },
+    "collections": {
+      "title": "Collections numériques",
+      "subtitle": "Des récits qui traversent les fonds",
+      "description": "Des collections thématiques réunissant livres, documents d'archives et objets autour d'un même sujet.",
+      "browseCta": "Parcourir les collections"
+    },
+    "exhibitions": {
+      "title": "Expositions virtuelles",
+      "subtitle": "Une narration immersive",
+      "description": "Plongez dans des expositions au défilement immersif qui donnent vie aux artefacts et à l'histoire.",
+      "browseCta": "Voir les expositions"
+    },
+    "timelines": {
+      "title": "Frises chronologiques interactives",
+      "subtitle": "Cinq mille ans, un seul fil",
+      "description": "Parcourez les époques de l'histoire égyptienne à travers une frise interactive liée aux artefacts.",
+      "browseCta": "Explorer les frises"
+    },
+    "restorationLab": {
+      "title": "Laboratoire de restauration",
+      "subtitle": "Dans les coulisses de la conservation",
+      "description": "Découvrez comment nos restaurateurs redonnent vie aux manuscrits et artefacts fragiles.",
+      "browseCta": "Voir les études de cas"
+    },
+    "research": {
+      "title": "Portail de recherche",
+      "subtitle": "Des outils conçus pour les chercheurs",
+      "description": "Recherche avancée, export de citations et demandes d'accès aux documents pour les chercheurs académiques.",
+      "browseCta": "Accéder au portail"
+    },
+    "learn": {
+      "title": "Plateforme éducative",
+      "subtitle": "Des parcours pour toutes les curiosités",
+      "description": "Des leçons structurées sur l'égyptologie, la conservation et les études patrimoniales, pour tous les niveaux.",
+      "browseCta": "Commencer à apprendre"
+    },
+    "events": {
+      "title": "Portail des événements",
+      "subtitle": "Ce qui se passe",
+      "description": "Conférences, ateliers, visites guidées et journées portes ouvertes dans les sites de l'Autorité.",
+      "browseCta": "Voir tous les événements"
+    },
+    "assistant": {
+      "title": "Assistant patrimoine IA",
+      "subtitle": "Posez vos questions sur le patrimoine égyptien",
+      "description": "Un guide conversationnel pour les collections de la Bibliothèque, des Archives et du Musée.",
+      "browseCta": "Démarrer une conversation"
+    },
+    "membership": {
+      "title": "Adhésion",
+      "subtitle": "Rejoignez la communauté des gardiens du patrimoine",
+      "description": "Des formules d'adhésion échelonnées donnant accès à la recherche et à des événements exclusifs.",
+      "browseCta": "Voir les formules"
+    },
+    "readingRoom": {
+      "title": "Salle de lecture numérique",
+      "subtitle": "Un accès sécurisé aux documents rares",
+      "description": "Un visualiseur à accès contrôlé pour les documents d'archives et de bibliothèque restreints.",
+      "browseCta": "Demander l'accès"
+    },
+    "publications": {
+      "title": "Publications",
+      "subtitle": "La recherche scientifique imprimée",
+      "description": "Revues, monographies et guides de référence publiés par l'Autorité.",
+      "browseCta": "Parcourir les publications"
+    }
+  },
+  "Static": {
+    "about": {
+      "title": "À propos de l'Autorité",
+      "intro": "L'Autorité générale de la Bibliothèque nationale et des Archives d'Égypte préserve et partage le patrimoine écrit et documentaire de la nation."
+    },
+    "visit": {
+      "title": "Préparer votre visite",
+      "intro": "Tout ce qu'il faut savoir avant de visiter nos salles de lecture, galeries et espaces de recherche."
+    },
+    "contact": {
+      "title": "Nous contacter",
+      "intro": "Contactez nos équipes pour toute demande de recherche, partenariat ou question générale.",
+      "formName": "Nom complet",
+      "formEmail": "Adresse e-mail",
+      "formSubject": "Sujet",
+      "formMessage": "Message",
+      "formSubmit": "Envoyer le message"
+    },
+    "accessibility": {
+      "title": "Déclaration d'accessibilité",
+      "intro": "Notre engagement pour une expérience inclusive et accessible à chaque visiteur, conforme au niveau WCAG 2.2 AA."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "intro": "Comment nous collectons, utilisons et protégeons vos informations sur nos services numériques."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "intro": "Les conditions régissant l'utilisation de la plateforme du patrimoine numérique égyptien."
+    },
+    "sitemap": {
+      "title": "Plan du site",
+      "intro": "Une vue d'ensemble complète de toutes les sections de la plateforme."
+    },
+    "news": {
+      "title": "Actualités",
+      "intro": "Annonces, ouvertures d'expositions et récits de toute l'Autorité."
+    }
+  },
+  "Search": {
+    "title": "Rechercher",
+    "resultsFor": "Résultats pour « {query} »",
+    "resultsCount": "{count, plural, =0 {Aucun résultat} one {# résultat} other {# résultats}}",
+    "groupBook": "Livres de la bibliothèque",
+    "groupArchivalRecord": "Documents d'archives",
+    "groupMuseumObject": "Objets du musée",
+    "groupPublication": "Publications",
+    "groupEvent": "Événements",
+    "groupLesson": "Leçons",
+    "emptyStateTitle": "Commencez à taper pour rechercher",
+    "emptyStateText": "Recherchez dans la Bibliothèque, les Archives, le Musée, les Publications et plus encore."
+  },
+  "Membership": {
+    "title": "Formules d'adhésion",
+    "subtitle": "Choisissez la formule adaptée à votre façon de découvrir le patrimoine égyptien",
+    "perYear": "par an",
+    "freeLabel": "Gratuit",
+    "join": "Adhérer maintenant",
+    "mostPopular": "Le plus populaire",
+    "benefitsTitle": "Ce qui est inclus",
+    "mockMemberName": "Amina Hassan",
+    "mockMemberEmail": "amina.hassan@example.com",
+    "accountNotice": "Cette page de compte utilise un membre fictif connecté à des fins de démonstration pour la Phase 1 uniquement — il n'y a pas encore d'authentification réelle.",
+    "memberSince": "Membre depuis"
+  },
+  "ReadingRoom": {
+    "gateTitle": "Salle de lecture numérique",
+    "gateDescription": "L'accès aux documents d'archives et de bibliothèque restreints est accordé aux chercheurs et membres vérifiés.",
+    "requestAccessCta": "Demander l'accès",
+    "sessionTitle": "Session de consultation sécurisée",
+    "sessionNotice": "Ceci est un visualiseur à accès contrôlé. Le téléchargement et l'impression sont désactivés pour les documents restreints."
+  },
+  "Assistant": {
+    "welcomeMessage": "Bienvenue ! Je suis l'assistant patrimoine. Posez-moi vos questions sur les collections de la Bibliothèque, des Archives ou du Musée.",
+    "inputPlaceholder": "Posez une question sur un manuscrit, un artefact, une époque…",
+    "disclaimer": "Les réponses sont illustratives et issues de données fictives dans cet aperçu de la Phase 1.",
+    "send": "Envoyer",
+    "replyRosetta": "Le déchiffrement de la pierre de Rosette est documenté dans la collection d'égyptologie de la Bibliothèque — voir le journal de déchiffrement de Champollion, et son histoire est racontée dans la frise de l'Égypte moderne.",
+    "replyMask": "Le masque funéraire d'une prêtresse est exposé dans la galerie de l'Égypte pharaonique du Musée numérique, datant de la XXIe dynastie.",
+    "replyMembership": "Vous pouvez explorer nos trois formules d'adhésion — Explorateur, Chercheur et Mécène — sur la page Adhésion, sous Accès et adhésion.",
+    "replyDefault": "Excellente question sur nos collections. Essayez d'explorer la Bibliothèque nationale, le Musée numérique ou les frises chronologiques interactives — cet aperçu de la Phase 1 utilise des réponses fictives illustratives plutôt qu'un modèle en direct."
+  },
+  "Research": {
+    "searchTitle": "Recherche avancée",
+    "requestsTitle": "Demandes de documents et citations",
+    "requestsIntro": "Soumettez une demande pour consulter des documents restreints ou exporter des citations pour vos recherches."
+  }
+}
